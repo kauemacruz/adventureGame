@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Items
+comment0.text=\r\n\ \ This\ class\ is\ part\ of\ the\ "Adventure\ in\ the\ House"\ application.\ \r\n\ "Adventure\ in\ the\ House"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \r\n\r\n\r\n\ @author\ Kaue\ Macruz\r\n\ @version\ 1.0\r\n
+comment1.params=itemName\ itemDescription
+comment1.target=Items(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Create\ an\ item\ described\ "description".\ Initially,\ \r\n\ "description"\ is\ something\ like\ "a\ flshlight"\ or\r\n\ "key".\r\n\ @param\ description\ The\ item's\ description.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getItemDescription()
+comment2.text=\r\n\ @return\ The\ description\ of\ the\ items.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getItemName()
+comment3.text=\r\n\ @return\ The\ name\ of\ the\ items.\r\n
+comment4.params=objName\ inventory
+comment4.target=boolean\ contains(java.lang.String,\ java.util.ArrayList)
+comment4.text=\r\nchecks\ if\ item\ exists\ in\ arraylist\r\n
+comment5.params=objName\ inventory
+comment5.target=Items\ returnObjByName(java.lang.String,\ java.util.ArrayList)
+comment5.text=\r\n\ returns\ object\ by\ its\ name\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ @return\ string\ with\ name\ of\ the\ items\ and\ its\ description.\r\n
+numComments=7
